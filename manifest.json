@@ -1,6 +1,3 @@
-/*All Chrome extensions require a manifest file to describe to the browser what it is,
-what it requires, and what permissions it needs. */
-
 {
   "manifest_version": 2,
 
@@ -15,4 +12,4 @@ what it requires, and what permissions it needs. */
   "permissions": [
    "activeTab"
    ]
-}ß
+}
