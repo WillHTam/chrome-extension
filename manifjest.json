@@ -1,0 +1,18 @@
+/*All Chrome extensions require a manifest file to describe to the browser what it is,
+what it requires, and what permissions it needs. */
+
+{
+  "manifest_version": 2,
+
+  "name": "GTmetrix Analyzer Plugin",
+  "description": "This extension will analyze a page using GTmetrix",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}ß
